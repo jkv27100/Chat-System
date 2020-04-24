@@ -1,0 +1,15 @@
+.chat-area{
+    
+    
+    padding: 22rem;
+    
+}
+
+@media only screen and (max-width: 700px){
+    .chat-area
+    {
+         padding: 50%;
+         
+    }
+    
+}
