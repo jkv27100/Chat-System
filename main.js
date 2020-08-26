@@ -1,3 +1,4 @@
+
 const socket = io();
 const msg = document.getElementById('typedMsg');
 
@@ -47,3 +48,8 @@ function updateScroll(){
     var element = document.getElementById("messages");
     element.scrollTop = element.scrollHeight;
 }
+
+
+
+
+
