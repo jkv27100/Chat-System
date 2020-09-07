@@ -3,7 +3,7 @@ const path = require('path');
 const http = require('http');
 const socketio = require('socket.io');
 const {BlockChain, Block} = require('./BlockChain');
-const { measureMemory } = require('vm');
+
 
 const app = express();
 const server = http.createServer(app);
@@ -16,6 +16,7 @@ app.use(express.static(path.join(__dirname,'/')));
 
 //new connection
 io.on('connection', socket => {
+    
 
     let Message = new BlockChain();
 
